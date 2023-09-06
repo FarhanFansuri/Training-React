@@ -1,22 +1,15 @@
 import './App.css';
-
+// import DayTwo from './day_02/DayTwo';
+import StateMaterial from './day_02/State';
 function App() {
 
   return (
     <div className="App">
-      <Job salary={10000000} position="IT consultan" company="Google" />
+      <StateMaterial/>
     </div>
   );
 }
 
-const Job = (props)=>{
-  return (
-    <div>
-    <h1>{props.salary}</h1>
-    <h1>{props.position}</h1>
-    <h1>{props.company}</h1>
-    </div>
-  )
-}
+
 
 export default App;
