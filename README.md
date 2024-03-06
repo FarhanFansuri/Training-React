@@ -1,2 +1,2 @@
-# Training-React
-Ini adalah repository untuk belajar react
+# Training-Javascript
+Ini adalah repository untuk belajar javascript
