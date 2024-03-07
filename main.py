@@ -8,3 +8,5 @@ for i in range(200):
     os.system('git add test.txt')
     os.system('git commit --date=" 2024-'+str(rand)+'-'+d+'" -m 1')
 os.system('git push -u origin main')
+
+print("hell")
